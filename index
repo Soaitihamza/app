@@ -1,0 +1,98 @@
+<html>
+	<head>
+		
+		
+		<title>موقع محبي كرة القدم</title>
+		<meta charset="utf-8"/>
+		<meta name="description" content="طالب لدى shiyar">
+		<meta name="viewport" content="width-device-width,initial-scale=1.0">
+	    <link rel="icon" href="foot.jpg">
+		<style>
+			span{
+				color: red;
+			}
+			h1{
+				background-color: blue;
+				color: white;
+			}
+
+		</style>
+	</head>
+	<body dir="rtl">
+		<form>
+		<table>
+			<tr>
+				<td colspan="2"><h1>التسجيل في موقع كرة القدم</h1></td>
+			</tr>
+			<tr>
+				<td>الاسم الشخصي:<span>*</span></td>
+				<td><input type="text" placeholder=" ادخل اسمك الشخصي " required ></td>
+			</tr>
+			<tr>
+				<td>الاسم العائلي: <span>*</span></td>
+				<td><input type="text" placeholder="اسمك العائلي" required ></td>
+			</tr>
+			<tr>
+				<td>الجنس: <span>*</span></td>
+				<td><input type="radio" name="gender" value="ذكر" required  checked>ذكر</td>
+				<td><input type="radio" name="gender" value="انثى" required>انثى</td>
+			</tr>
+			<tr>
+				<td>تاريخ الميلاذ: <span>*</span></td>
+				<td><input type="date"  name="birth" required min="1998-03-12" max="2004-12-01"> </td>
+			</tr>
+			<tr>
+				<td>البريد الالكتروني:<span>*</span></td>
+				<td><input type="email" name="email" required placeholder="ادخل بريدك الالكتروني"></td>
+			</tr>
+			<tr>
+				<td>كلمة المرور:<span>*</span></td>
+				<td><input type="password" name="pass" placeholder="ادخل كلمة المرور" required></td>
+			</tr>
+			<tr>
+				<td>تاكيد كلمة المرور:<span>*</span></td>
+				<td><input type="password" name="ps" placeholder="تاكيد كلمة المرور" required></td>
+			</tr>
+			<tr>
+				<td>اختر فريقك المفضل:</td>
+				<td><select name="clup" required >
+					<option value="">اختر فريق</option>
+					<option value="برشلونة">برشلونة</option>
+					<option value="ريال مدريد">ريال مدريد</option>
+					<option value="بايرن ميونخ">بايرن ميونخ</option>
+					<option value="بروسيا دورتموند">بروسيا دورتموند</option>
+					</select></td>
+			</tr>
+			<tr>
+				<td>روابط الاندية:</td>
+				<td>
+			   <a href="https://www.fcbarcelona.com/en/" target="_blank">برشلونة</a>
+			  <a href="https://www.realmadrid.com/fr" target="_blank">ريال مدريد</a> 
+			    <a href="https://fcbayern.com/en"target="_blank">بايرن ميونخ</a>
+				<a href="https://www.bvb.de/" target="_blank">بروسيا دورتموند</a>
+				</td>
+			</tr>
+			<tr>
+				<td><button type="submit">نقل البينات</button></td>
+				<td><button type="reset">اعادة</button></td>
+			</tr>
+			<tr>
+				<td>اناشيد الاندية:</td>
+				<td><audio  src="baarcallona.mp3" controls loop></audio> برشلونة</td>
+				<td><audio  src="maadrid.mp3" controls loop></audio>ريال مدريد</td>
+				<td><audio  src="baaayern.mp3" controls loop></audio> بايرن ميونخ</td>
+				<td><audio  src="brooosia.mp3" controls loop></audio> بروسيا دورتموند</td>
+			</tr>	
+		</table>
+		</form>
+			<label>شعارات الاندية الموجودة</label>
+		<marquee bgcolor="black" behavior="scroll" scrollamount="10" direction="right" loop="10">
+			<span><img src="br.png"></span>
+			<span><img src=re.png></span>
+			<span><img src=bay.png></span>
+			<span><img src=bbvv.png></span>
+		</marquee>
+		<h2>&copy; جميع الحقوق محفوظة</h2>
+		
+	</body>
+</html>
